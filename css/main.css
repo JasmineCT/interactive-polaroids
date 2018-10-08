@@ -37,6 +37,13 @@ body .polaroid {
   transform: rotate(33deg);
 }
 
+.polaroid:hover {
+  z-index: 5;
+  transform: rotate(0deg);
+  box-shadow:
+}
+
+
 .polaroid > img {
   display: block;
   width: 100%;
@@ -45,4 +52,7 @@ body .polaroid {
 .polaroid > figcaption {
   color: #fff;
   text-shadow: 1px 1px 3px #000;
+  position: absolute;
+  bottom: 1.25em;
+  left: 5.25em;
 }
